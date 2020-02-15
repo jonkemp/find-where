@@ -18,7 +18,7 @@ $ npm install find-where
 Or [unpkg](https://unpkg.com/find-where/)
 
 ```
-<script src="https://unpkg.com/browse/find-where@1.0.1/umd/index.js" />
+<script src="https://unpkg.com/find-where@1.0.1/umd/index.js" />
 ```
 
 Check out the unit tests on [CodePen](https://codepen.io/jonkemp/full/rNVeVKE).
