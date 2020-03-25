@@ -4,7 +4,7 @@
 	"description": "Iterates over a collection of values and returns the first value that matches all of the key-value pairs provided.",
 	"main": "index.js",
 	"scripts": {
-		"build": "node build",
+		"build": "rollup --config",
 		"prepublishOnly": "npm run build",
 		"lint": "eslint . --max-warnings 0",
 		"lint:fix": "eslint . --fix --max-warnings 0",
@@ -33,9 +33,12 @@
 	},
 	"homepage": "https://github.com/jonkemp/find-where#readme",
 	"devDependencies": {
+		"@rollup/plugin-commonjs": "^11.0.2",
+		"@rollup/plugin-node-resolve": "^7.1.1",
+		"babel-eslint": "^10.1.0",
 		"eslint": "^6.8.0",
 		"mocha": "^7.1.1",
-		"umd-util": "^2.0.0"
+		"rollup": "^2.2.0"
 	},
 	"dependencies": {
 		"@jonkemp/package-utils": "^1.0.0"
