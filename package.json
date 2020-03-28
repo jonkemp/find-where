@@ -41,6 +41,6 @@
 		"rollup": "^2.2.0"
 	},
 	"dependencies": {
-		"@jonkemp/package-utils": "^1.0.0"
+		"@jonkemp/package-utils": "^1.0.3"
 	}
 }
