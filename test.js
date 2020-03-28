@@ -1,6 +1,6 @@
 const assert = require('assert');
 const findWhere = require('./');
-const isUndefined = obj => obj === void 0;
+const { isUndefined } = require('@jonkemp/package-utils');
 
 describe('findWhere', () => {
 	const list = [{a: 1, b: 2}, {a: 2, b: 2}, {a: 1, b: 3}, {a: 1, b: 4}, {a: 2, b: 4}];
