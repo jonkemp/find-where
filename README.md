@@ -1,4 +1,4 @@
-# find-where [![Build Status](https://travis-ci.com/jonkemp/find-where.svg?branch=master)](https://travis-ci.com/jonkemp/find-where)
+# find-where ![Build Status](https://github.com/jonkemp/find-where/actions/workflows/main.yml/badge.svg?branch=master)
 
 > Iterates over a collection of values and returns the first value that matches all of the key-value pairs provided.
 
