@@ -1,6 +1,6 @@
 {
 	"name": "find-where",
-	"version": "1.0.5",
+	"version": "1.0.6",
 	"description": "Iterates over a collection of values and returns the first value that matches all of the key-value pairs provided.",
 	"main": "index.js",
 	"scripts": {
