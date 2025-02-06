@@ -33,12 +33,14 @@
 	},
 	"homepage": "https://github.com/jonkemp/find-where#readme",
 	"devDependencies": {
-		"@rollup/plugin-commonjs": "^21.0.2",
-		"@rollup/plugin-node-resolve": "^13.1.3",
+		"@eslint/js": "^9.19.0",
+		"@rollup/plugin-commonjs": "^28.0.2",
+		"@rollup/plugin-node-resolve": "^16.0.0",
 		"babel-eslint": "^10.1.0",
-		"eslint": "^8.12.0",
-		"mocha": "^9.2.2",
-		"rollup": "^2.70.1"
+		"eslint": "^9.19.0",
+		"globals": "^15.14.0",
+		"mocha": "^11.1.0",
+		"rollup": "^4.34.4"
 	},
 	"dependencies": {
 		"@jonkemp/package-utils": "^1.0.8"
