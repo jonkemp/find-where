@@ -8,7 +8,7 @@
 		"prepublishOnly": "npm run build",
 		"lint": "eslint . --max-warnings 0",
 		"lint:fix": "eslint . --fix --max-warnings 0",
-		"test": "mocha"
+		"test": "node --test test.js"
 	},
 	"files": [
 		"index.js",
@@ -36,10 +36,8 @@
 		"@eslint/js": "^9.19.0",
 		"@rollup/plugin-commonjs": "^28.0.2",
 		"@rollup/plugin-node-resolve": "^16.0.0",
-		"babel-eslint": "^10.1.0",
 		"eslint": "^9.19.0",
 		"globals": "^15.14.0",
-		"mocha": "^11.1.0",
 		"rollup": "^4.34.4"
 	},
 	"dependencies": {
