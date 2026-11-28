@@ -33,7 +33,7 @@
 	},
 	"homepage": "https://github.com/jonkemp/find-where#readme",
 	"devDependencies": {
-		"@eslint/js": "^9.19.0",
+		"@eslint/js": "^10.0.1",
 		"@rollup/plugin-commonjs": "^28.0.2",
 		"@rollup/plugin-node-resolve": "^16.0.0",
 		"eslint": "^9.19.0",
